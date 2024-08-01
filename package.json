@@ -2,7 +2,7 @@
   "name": "proj1",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://yousefelsayed18.github.io/first-react-project",
+  "homepage": "https://yousefelsayed18.github.io/first-reactProject",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

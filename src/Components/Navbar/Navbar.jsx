@@ -34,7 +34,7 @@ export default function Navbar() {
       <div className="container mx-auto">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2 sm:px-8 xl:px-0">
           <Link
-            to="/home"
+            to=""
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <span className="nav-head text-2xl font-bold whitespace-nowrap uppercase">
@@ -73,7 +73,7 @@ export default function Navbar() {
             <ul className="font-medium flex flex-col gap-4 py-4 md:p-0 mt-4 md:flex-row md:space-x-4 md:mt-0">
               <li>
                 <NavLink
-                  to="/about"
+                  to="about"
                   className="py-2 px-4 uppercase font-bold "
                   onClick={() => setIsMenuOpen(false)}
                 >
@@ -82,7 +82,7 @@ export default function Navbar() {
               </li>
               <li>
                 <NavLink
-                  to="/portfolio"
+                  to="portfolio"
                   className="py-2 px-4 uppercase font-bold "
                   onClick={() => setIsMenuOpen(false)}
                 >
@@ -91,7 +91,7 @@ export default function Navbar() {
               </li>
               <li>
                 <NavLink
-                  to="/contact"
+                  to="contact"
                   className="py-2 px-4 uppercase font-bold "
                   onClick={() => setIsMenuOpen(false)}
                 >
